@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80);
+}
+
+#sentence_title{
+    font-family: 'RIDIBatang';
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input{
+    font-family: 'RIDIBatang';
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* 
+.container{
+    background: beige;
+    height: 100vh;
+    display: flex; /*flex 박스로 보여주고*/
+    /* flex-direction: row; 전체 방향은 수평or수직으로 */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; 한 줄 넘어갈 때 넘어가게 할건지 */
+    /* flex-wrap: wrapreverse; */
+    /* flex-wrap: nowrap; */
+    /* flex-flow: column nowrap; */ 
+    /* justify-content: space-between; /*얘는 중심축에서 아이템들 배치 */
+    /* justify-content: flex-start */
+    /* justify-content: flex-end */
+    /* justify-content: center */
+    /*align-items: center;*/ /*반대축에서 아이템을 어떻게 할건지 결정*/
+    /* align-items: baseline; 패딩크기에 상관없이 텍스트 같은 높이에 표시 되게 */
+    /* align-content: space-between; */
+/* } */
+
+/* 
+a {
+    color:black;
+    text-decoration: none;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding: 20px;
+}
+body{
+    margin:10px;
+}
+#grid ol {
+    border-right: 1px solid gray;
+    width:100px;
+    margin:0;
+    margin-left:20px;
+    padding: 10px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    padding-top:0px;
+}
+div{
+    padding-top:15px;
+}
+@media(max-width:800px) {
+    #grid ol {
+    border-right: 1px solid gray;
+    width:60px;
+    margin:0;
+    margin-left:10px;
+    padding: 5px;
+    }
+    #grid{
+    display: block;
+    grid-template-columns: 150px 1fr;
+    padding-top:0px;
+    }
+    #grid ol {
+    border-right: none;
+    }
+    div{
+        border-top: 1px solid gray;
+    }
+} */
